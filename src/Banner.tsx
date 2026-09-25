@@ -1,4 +1,3 @@
-
 import toast from "react-hot-toast";
 import bannerImg from "./assets/banner-stack.png";
 
@@ -11,12 +10,20 @@ const Banner = () => {
           Development Stack
         </h1>
         <p className="my-5">
-          Explore frontend, backend, database, and tooling options, <br /> compare them
-          side by side, and put together the stack that fits your <br /> next project.
+          Explore frontend, backend, database, and tooling options, <br />{" "}
+          compare them side by side, and put together the stack that fits your{" "}
+          <br /> next project.
         </p>
         <div className="flex gap-4">
-          <button className="bg-linear-to-r from-orange-400 to-pink-400 px-3 py-4 rounded-2xl font-bold text-white  " onClick={()=> toast.success('Successfully toasted!')}>Explore Technologies</button>
-          <button className="px-10 py-4 border border-gray-400 rounded-2xl font-bold">Learn More</button>
+          <button
+            className="bg-linear-to-r from-orange-400 to-pink-400 px-3 py-4 rounded-2xl font-bold text-white  "
+            onClick={() => toast.success("Successfully toasted!")}
+          >
+            Explore Technologies
+          </button>
+          <button className="px-10 py-4 border border-gray-400 rounded-2xl font-bold">
+            Learn More
+          </button>
         </div>
       </div>
 
