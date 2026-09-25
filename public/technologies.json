@@ -1,0 +1,122 @@
+[
+  {
+    "id": "react",
+    "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
+    "stackName": "React",
+    "stackDesc": "A JavaScript library for building fast and interactive user interfaces.",
+    "category": "Frontend",
+    "difficulty": "Intermediate",
+    "rating": 4.8,
+    "badge": "Popular"
+  },
+  {
+    "id": "vue",
+    "icon": "https://icon.icepanel.io/Technology/svg/Vue.js.svg",
+    "stackName": "Vue.js",
+    "stackDesc": "A progressive JavaScript framework for building modern web interfaces.",
+    "category": "Frontend",
+    "difficulty": "Beginner",
+    "rating": 4.6,
+    "badge": "Popular"
+  },
+  {
+    "id": "svelte",
+    "icon": "https://icon.icepanel.io/Technology/svg/Svelte.svg",
+    "stackName": "Svelte",
+    "stackDesc": "A modern frontend framework that compiles components into efficient JavaScript.",
+    "category": "Frontend",
+    "difficulty": "Intermediate",
+    "rating": 4.5,
+    "badge": "Trending"
+  },
+  {
+    "id": "nextjs",
+    "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
+    "stackName": "Next.js",
+    "stackDesc": "A React framework for building full-stack web applications with modern features.",
+    "category": "Full Stack",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "badge": "Popular"
+  },
+  {
+    "id": "nodejs",
+    "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
+    "stackName": "Node.js",
+    "stackDesc": "A JavaScript runtime that allows developers to build scalable server-side applications.",
+    "category": "Backend",
+    "difficulty": "Intermediate",
+    "rating": 4.7,
+    "badge": "Popular"
+  },
+  {
+    "id": "postgresql",
+    "icon": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
+    "stackName": "PostgreSQL",
+    "stackDesc": "A powerful open-source relational database known for reliability and advanced features.",
+    "category": "Database",
+    "difficulty": "Intermediate",
+    "rating": 4.8,
+    "badge": "Reliable"
+  },
+  {
+    "id": "redis",
+    "icon": "https://icon.icepanel.io/Technology/svg/Redis.svg",
+    "stackName": "Redis",
+    "stackDesc": "An in-memory data store commonly used for caching, sessions, queues, and real-time applications.",
+    "category": "Database",
+    "difficulty": "Intermediate",
+    "rating": 4.6,
+    "badge": "Fast"
+  },
+  {
+    "id": "javascript",
+    "icon": "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
+    "stackName": "JavaScript",
+    "stackDesc": "A versatile programming language used to create interactive web applications.",
+    "category": "Language",
+    "difficulty": "Beginner",
+    "rating": 4.9,
+    "badge": "Essential"
+  },
+  {
+    "id": "typescript",
+    "icon": "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
+    "stackName": "TypeScript",
+    "stackDesc": "A strongly typed superset of JavaScript that improves developer productivity and code reliability.",
+    "category": "Language",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "badge": "Popular"
+  },
+  {
+    "id": "java",
+    "icon": "https://icon.icepanel.io/Technology/svg/Java.svg",
+    "stackName": "Java",
+    "stackDesc": "A widely used object-oriented programming language for enterprise and backend applications.",
+    "category": "Language",
+    "difficulty": "Intermediate",
+    "rating": 4.7,
+    "badge": "Enterprise"
+  },
+  {
+    "id": "tailwindcss",
+    "icon": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
+    "stackName": "Tailwind CSS",
+    "stackDesc": "A utility-first CSS framework for rapidly building modern and responsive interfaces.",
+    "category": "CSS",
+    "difficulty": "Beginner",
+    "rating": 4.8,
+    "badge": "Popular"
+  },
+  {
+    "id": "docker",
+    "icon": "https://icon.icepanel.io/Technology/svg/Docker.svg",
+    "stackName": "Docker",
+    "stackDesc": "A platform for packaging and running applications in isolated containers.",
+    "category": "DevOps",
+    "difficulty": "Intermediate",
+    "rating": 4.8,
+    "badge": "Essential"
+  }
+]

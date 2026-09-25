@@ -1,9 +1,9 @@
-import React from 'react';
+
 import logo from './assets/logo-text.png'
 
 const Navbar = () => {
   return (
-    <div className='sticky top-0 z-50 w-full border-b border-gray-100'>
+    <div className='sticky top-0 z-50 w-full border-b border-gray-100 bg-white'>
       <nav className='flex justify-between mx-auto items-center px-12 py-4'>
         <img src={logo} alt="DevstackLogo" className=''/>
         <ul className='flex gap-6'>
