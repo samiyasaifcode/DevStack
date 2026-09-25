@@ -118,5 +118,305 @@
     "difficulty": "Intermediate",
     "rating": 4.8,
     "badge": "Essential"
+  },
+  {
+    "id": "angular",
+    "icon": "https://icon.icepanel.io/Technology/svg/Angular.svg",
+    "stackName": "Angular",
+    "stackDesc": "A TypeScript-based framework for building scalable enterprise web applications.",
+    "category": "Frontend",
+    "difficulty": "Advanced",
+    "rating": 4.5,
+    "badge": "Enterprise"
+  },
+  {
+    "id": "express",
+    "icon": "https://icon.icepanel.io/Technology/svg/Express.svg",
+    "stackName": "Express.js",
+    "stackDesc": "A lightweight Node.js framework for building APIs and server-side applications.",
+    "category": "Backend",
+    "difficulty": "Beginner",
+    "rating": 4.7,
+    "badge": "Popular"
+  },
+  {
+    "id": "nestjs",
+    "icon": "https://icon.icepanel.io/Technology/svg/Nest.js.svg",
+    "stackName": "NestJS",
+    "stackDesc": "A progressive Node.js framework for building scalable and maintainable server-side applications.",
+    "category": "Backend",
+    "difficulty": "Advanced",
+    "rating": 4.6,
+    "badge": "Modern"
+  },
+  {
+    "id": "python",
+    "icon": "https://icon.icepanel.io/Technology/svg/Python.svg",
+    "stackName": "Python",
+    "stackDesc": "A versatile programming language widely used in web development, automation, data science, and AI.",
+    "category": "Language",
+    "difficulty": "Beginner",
+    "rating": 4.9,
+    "badge": "Essential"
+  },
+  {
+    "id": "cpp",
+    "icon": "https://icon.icepanel.io/Technology/svg/C%2B%2B.svg",
+    "stackName": "C++",
+    "stackDesc": "A high-performance programming language commonly used for systems, games, and competitive programming.",
+    "category": "Language",
+    "difficulty": "Advanced",
+    "rating": 4.6,
+    "badge": "Powerful"
+  },
+  {
+    "id": "csharp",
+    "icon": "https://icon.icepanel.io/Technology/svg/C%23.svg",
+    "stackName": "C#",
+    "stackDesc": "A modern object-oriented language commonly used with .NET for applications, APIs, and games.",
+    "category": "Language",
+    "difficulty": "Intermediate",
+    "rating": 4.6,
+    "badge": "Popular"
+  },
+  {
+    "id": "php",
+    "icon": "https://icon.icepanel.io/Technology/svg/PHP.svg",
+    "stackName": "PHP",
+    "stackDesc": "A server-side scripting language widely used for dynamic websites and web applications.",
+    "category": "Backend",
+    "difficulty": "Beginner",
+    "rating": 4.4,
+    "badge": "Established"
+  },
+  {
+    "id": "mysql",
+    "icon": "https://icon.icepanel.io/Technology/svg/MySQL.svg",
+    "stackName": "MySQL",
+    "stackDesc": "A popular open-source relational database management system used in web applications.",
+    "category": "Database",
+    "difficulty": "Beginner",
+    "rating": 4.7,
+    "badge": "Popular"
+  },
+  {
+    "id": "mongodb",
+    "icon": "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
+    "stackName": "MongoDB",
+    "stackDesc": "A document-oriented NoSQL database designed for flexible and scalable applications.",
+    "category": "Database",
+    "difficulty": "Beginner",
+    "rating": 4.7,
+    "badge": "Popular"
+  },
+  {
+    "id": "firebase",
+    "icon": "https://icon.icepanel.io/Technology/svg/Firebase.svg",
+    "stackName": "Firebase",
+    "stackDesc": "A Google platform providing authentication, databases, hosting, storage, and other backend services.",
+    "category": "Backend",
+    "difficulty": "Beginner",
+    "rating": 4.5,
+    "badge": "Fast Setup"
+  },
+  {
+    "id": "graphql",
+    "icon": "https://icon.icepanel.io/Technology/svg/GraphQL.svg",
+    "stackName": "GraphQL",
+    "stackDesc": "A query language and runtime for APIs that lets clients request exactly the data they need.",
+    "category": "Backend",
+    "difficulty": "Intermediate",
+    "rating": 4.6,
+    "badge": "Modern"
+  },
+  {
+    "id": "git",
+    "icon": "https://icon.icepanel.io/Technology/svg/Git.svg",
+    "stackName": "Git",
+    "stackDesc": "A distributed version control system used to track changes and collaborate on software projects.",
+    "category": "Tools",
+    "difficulty": "Beginner",
+    "rating": 4.9,
+    "badge": "Essential"
+  },
+  {
+    "id": "github",
+    "icon": "https://icon.icepanel.io/Technology/svg/GitHub.svg",
+    "stackName": "GitHub",
+    "stackDesc": "A platform for hosting repositories, collaborating on code, and managing software projects.",
+    "category": "Tools",
+    "difficulty": "Beginner",
+    "rating": 4.9,
+    "badge": "Essential"
+  },
+  {
+    "id": "githubactions",
+    "icon": "https://icon.icepanel.io/Technology/svg/GitHub-Actions.svg",
+    "stackName": "GitHub Actions",
+    "stackDesc": "A CI/CD platform for automating software development workflows directly within GitHub.",
+    "category": "DevOps",
+    "difficulty": "Intermediate",
+    "rating": 4.6,
+    "badge": "Automation"
+  },
+  {
+    "id": "kubernetes",
+    "icon": "https://icon.icepanel.io/Technology/svg/Kubernetes.svg",
+    "stackName": "Kubernetes",
+    "stackDesc": "An open-source platform for automating deployment, scaling, and management of containers.",
+    "category": "DevOps",
+    "difficulty": "Advanced",
+    "rating": 4.7,
+    "badge": "Cloud Native"
+  },
+  {
+    "id": "aws",
+    "icon": "https://icon.icepanel.io/Technology/svg/AWS.svg",
+    "stackName": "AWS",
+    "stackDesc": "A comprehensive cloud computing platform offering infrastructure, storage, databases, and application services.",
+    "category": "Cloud",
+    "difficulty": "Advanced",
+    "rating": 4.8,
+    "badge": "Industry"
+  },
+  {
+    "id": "vercel",
+    "icon": "https://icon.icepanel.io/Technology/svg/Vercel.svg",
+    "stackName": "Vercel",
+    "stackDesc": "A cloud platform optimized for deploying modern frontend and full-stack web applications.",
+    "category": "Cloud",
+    "difficulty": "Beginner",
+    "rating": 4.7,
+    "badge": "Popular"
+  },
+  {
+    "id": "html",
+    "icon": "https://icon.icepanel.io/Technology/svg/HTML5.svg",
+    "stackName": "HTML5",
+    "stackDesc": "The standard markup language used to structure content and applications on the web.",
+    "category": "Frontend",
+    "difficulty": "Beginner",
+    "rating": 4.9,
+    "badge": "Essential"
+  },
+  {
+    "id": "css",
+    "icon": "https://icon.icepanel.io/Technology/svg/CSS3.svg",
+    "stackName": "CSS3",
+    "stackDesc": "A stylesheet language used to design, layout, and create responsive web interfaces.",
+    "category": "CSS",
+    "difficulty": "Beginner",
+    "rating": 4.8,
+    "badge": "Essential"
+  },
+  {
+    "id": "sass",
+    "icon": "https://icon.icepanel.io/Technology/svg/Sass.svg",
+    "stackName": "Sass",
+    "stackDesc": "A CSS preprocessor that adds variables, nesting, mixins, and other powerful features to CSS.",
+    "category": "CSS",
+    "difficulty": "Intermediate",
+    "rating": 4.5,
+    "badge": "Powerful"
+  },
+  {
+    "id": "bootstrap",
+    "icon": "https://icon.icepanel.io/Technology/svg/Bootstrap.svg",
+    "stackName": "Bootstrap",
+    "stackDesc": "A popular CSS framework providing responsive layouts and reusable UI components.",
+    "category": "CSS",
+    "difficulty": "Beginner",
+    "rating": 4.5,
+    "badge": "Popular"
+  },
+  {
+    "id": "springboot",
+    "icon": "https://icon.icepanel.io/Technology/svg/Spring.svg",
+    "stackName": "Spring Boot",
+    "stackDesc": "A Java framework for quickly building production-ready backend applications and REST APIs.",
+    "category": "Backend",
+    "difficulty": "Advanced",
+    "rating": 4.7,
+    "badge": "Enterprise"
+  },
+  {
+    "id": "dotnet",
+    "icon": "https://icon.icepanel.io/Technology/svg/.NET.svg",
+    "stackName": ".NET",
+    "stackDesc": "A cross-platform development platform for building web, desktop, cloud, and backend applications.",
+    "category": "Backend",
+    "difficulty": "Intermediate",
+    "rating": 4.7,
+    "badge": "Enterprise"
+  },
+  {
+    "id": "flutter",
+    "icon": "https://icon.icepanel.io/Technology/svg/Flutter.svg",
+    "stackName": "Flutter",
+    "stackDesc": "A UI toolkit for building cross-platform mobile, web, and desktop applications.",
+    "category": "Mobile",
+    "difficulty": "Intermediate",
+    "rating": 4.6,
+    "badge": "Cross Platform"
+  },
+  {
+    "id": "reactnative",
+    "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
+    "stackName": "React Native",
+    "stackDesc": "A framework for building native mobile applications using React and JavaScript.",
+    "category": "Mobile",
+    "difficulty": "Intermediate",
+    "rating": 4.6,
+    "badge": "Popular"
+  },
+  {
+    "id": "jest",
+    "icon": "https://icon.icepanel.io/Technology/svg/Jest.svg",
+    "stackName": "Jest",
+    "stackDesc": "A JavaScript testing framework commonly used for unit and integration testing.",
+    "category": "Testing",
+    "difficulty": "Intermediate",
+    "rating": 4.5,
+    "badge": "Testing"
+  },
+  {
+    "id": "cypress",
+    "icon": "https://icon.icepanel.io/Technology/svg/Cypress.svg",
+    "stackName": "Cypress",
+    "stackDesc": "A modern testing framework designed for reliable end-to-end testing of web applications.",
+    "category": "Testing",
+    "difficulty": "Intermediate",
+    "rating": 4.6,
+    "badge": "Testing"
+  },
+  {
+    "id": "vite",
+    "icon": "https://icon.icepanel.io/Technology/svg/Vite.js.svg",
+    "stackName": "Vite",
+    "stackDesc": "A fast frontend build tool providing a quick development server and optimized production builds.",
+    "category": "Tools",
+    "difficulty": "Beginner",
+    "rating": 4.8,
+    "badge": "Fast"
+  },
+  {
+    "id": "npm",
+    "icon": "https://icon.icepanel.io/Technology/svg/NPM.svg",
+    "stackName": "npm",
+    "stackDesc": "The default package manager for Node.js used to install and manage JavaScript dependencies.",
+    "category": "Tools",
+    "difficulty": "Beginner",
+    "rating": 4.7,
+    "badge": "Essential"
+  },
+  {
+    "id": "linux",
+    "icon": "https://icon.icepanel.io/Technology/svg/Linux.svg",
+    "stackName": "Linux",
+    "stackDesc": "An open-source operating system widely used for servers, development, cloud infrastructure, and DevOps.",
+    "category": "DevOps",
+    "difficulty": "Intermediate",
+    "rating": 4.8,
+    "badge": "Essential"
   }
 ]
