@@ -3,8 +3,12 @@ import type { technologiesTypes } from "./types/technologiesTypes";
 
 const Technologies = ({
   techPromise,
+  selectedStack,
+  onAdd,
 }: {
   techPromise: Promise<technologiesTypes[]>;
+  selectedStack: technologiesTypes[];
+  onAdd: (tech: technologiesTypes) => void;
 }) => {
   const allTech = use(techPromise);
   console.log(allTech);
@@ -13,6 +17,7 @@ const Technologies = ({
     <div className="col-span-3 grid grid-cols-3 gap-5">
       {allTech.length === 0 && <p>No tech Found</p>}
       {allTech.map((tech) => {
+        const isAdded = selectedStack.some((item) => item.id === tech.id);
         return (
           <div
             key={tech.id}
@@ -46,8 +51,16 @@ const Technologies = ({
               </span>
             </div>
             <button
-              className={`w-full text-[12px] font-medium py-3 rounded-2xl transition-colors duration-200`}
-            ></button>
+              onClick={() => onAdd(tech)}
+              disabled={isAdded}
+              className={`w-full text-[12px] font-medium py-3 rounded-2xl transition-colors duration-200 ${
+                isAdded
+                  ? "bg-gray-200 text-gray-400 cursor-not-allowed"
+                  : "bg-gray-900 text-white hover:bg-gray-800"
+              }`}
+            >
+              {isAdded ? "Added" : "Add to Stack"}
+            </button>
           </div>
         );
       })}
