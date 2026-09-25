@@ -42,7 +42,7 @@ const removeAll = () =>{
         <section className="container mx-auto my-10">
           <div className=" mb-10">
             <h1 className=" text-3xl font-extrabold ">
-              Explore The <span className="bg-linear-to-r from-orange-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">Technologies</span>
+              Explore The <span className="text-brand-gradient">Technologies</span>
             </h1>
             <p className="text-gray-400">
               Pick one technology per category to build your ideal stack.

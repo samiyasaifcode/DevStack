@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="flex justify-between items-center mx-auto px-12">
       <div className="">
         <h1 className="text-6xl font-popins font-black">Build Your Ideal</h1>
-        <h1 className="text-6xl font-black font-popins bg-linear-to-r from-orange-400 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+        <h1 className="text-6xl font-black font-popins text-brand-gradient">
           Development Stack
         </h1>
         <p className="my-5">
