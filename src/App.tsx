@@ -5,6 +5,7 @@ import { Suspense, useState } from "react";
 import type { technologiesTypes } from "./types/technologiesTypes";
 import toast from "react-hot-toast";
 import Stack from "./Stack";
+import Footer from "./Footer";
 
 const fetchTech = async () => {
   const res = await fetch("/technologies.json");
@@ -38,7 +39,7 @@ const removeAll = () =>{
       <Navbar></Navbar>
       <Banner></Banner>
       <main>
-        <section className="container mx-auto my-10">
+        <section className="container mx-auto my-12">
           <div className=" mb-10">
             <h1 className=" text-2xl font-bold ">
               Explore The <span className="text-fuchsia-600">Technologies</span>
@@ -55,6 +56,7 @@ const removeAll = () =>{
           </div>
         </section>
       </main>
+      <Footer></Footer>
     </div>
   );
 };
